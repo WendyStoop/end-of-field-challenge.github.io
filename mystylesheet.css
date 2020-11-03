@@ -1,0 +1,19 @@
+.container {
+    border: 10px solid black;
+    height:200px;
+    width: 300px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-left: 40px;
+    padding-right: 80px;
+    background-color: royalblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration-color: seashell;
+}
+
+button { 
+    background-color: royalblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -moz-text-decoration-color: seashell;
+    
+}
