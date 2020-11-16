@@ -32,4 +32,5 @@
 .avatar_container img{
     height: auto;
     width: 50px;
+    border-radius: 50%;
 }
