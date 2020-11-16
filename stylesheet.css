@@ -1,0 +1,76 @@
+#mockup {
+    width: 496px;
+    height: 265px;
+    background-image: url('../images/card-small-mockup.png');
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    opacity: 0;
+    z-index: 10;
+    pointer-events: none;
+  }
+  
+  .card {
+    border-radius: 0.1rem;
+    box-shadow: 0rem 0.01rem 0.15rem #00000073;
+    margin: 0.18rem 0.22rem;
+    display: flex;
+    justify-content: start;
+    width: 488px;
+    height: 258px;
+  }
+  
+  .content {
+    margin: 1.4rem;
+  }
+  
+  .card .content h1 {
+    margin-top: -0.1rem;
+    line-height: 1.5rem;
+    font-size: 1.16rem;
+    font-family: fell, Georgia, Cambria, 'Times New Roman', Times, serif;
+  }
+  
+  .card p {
+    font-family: sohne, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .card .description {
+    margin-top: 0.3rem;
+    margin-bottom: 3.9rem;
+    font-size: 0.95rem;
+    line-height: 1.2rem;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .details .autor-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .autor-name,
+  .time {
+    font-size: 0.81rem;
+  }
+  
+  .details {
+    margin: 0.22rem auto auto 0.6rem;
+    line-height: 1.1rem;
+  }
+  
+  .circle {
+    margin-top: 0.55rem;
+  }
+  
+  .description,
+  .time {
+    color: grey;
+    font-weight: lighter;
+  }
